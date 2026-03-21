@@ -1,0 +1,11 @@
+# Logical Operators: Python offers "or","and" and "not" as a logical operators 
+# These operator are beneficial for conditional statements:
+# AND : If both side, left and right, are True, then the AND operator returns True.
+# Or : If any side is True, then the OR operator returns True.
+# NOT : THE "not" operator inverts the outcome of the condition. If a condition in the not operator returns true, then the "not" operator makes it False, vice verse.
+A = 11
+print(A>=10 and A<=50)
+B = 0.5
+print(B>=10 and B<=50)
+C = 51
+print(C>=10 and C<=50)

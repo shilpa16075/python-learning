@@ -1,10 +1,18 @@
-# variable means linking of data to a name. Data is stored in memory, and according to data type, the interpreter reserves the memory space
-# rules: 
-# keyword cannot be used as a variable and other reserved keywords.
-# python is case-sensitive, and hence variable are also case sensitive 
-# A variable cannot start with a number.
-# A Variable is assigned to data by using the assignment operator.
-A = 10
-B = 40
-print(A)
-print(B)
+# Topic: Input and Output in Python
+# Description: Taking input from user and displaying output
+
+# 🔹 1. Simple Output
+print("Hello World")
+
+# 🔹 2. Output with variables
+name = "Shilpa"
+print("My name is:", name)
+
+# 🔹 3. Taking input from user
+user_name = input("Enter your name: ")
+print("Hello", user_name)
+
+# 🔹 4. Taking numeric input
+age = int(input("Enter your age: "))
+print("Your age is:", age)
+print("Program End")

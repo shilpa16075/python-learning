@@ -9,3 +9,13 @@ B = 0.5
 print(B>=10 and B<=50)
 C = 51
 print(C>=10 and C<=50)
+# Check if the number is positive or negative
+S = int(input("Enter a number: "))
+if(S<0):
+    print("S is negative")
+elif (S==0):
+    print("S is equal to zero")
+elif (S>0):
+    print("S is positive number")
+else:
+    print("not defined")
